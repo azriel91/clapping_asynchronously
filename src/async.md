@@ -27,7 +27,7 @@ In code ([source](https://github.com/azriel91/cli_async/blob/async_one/src/main.
 * Add `.await` to function calls.
 * Spawn tasks.
 
-```rust
+```rust,ignore
 #[tokio::main]
 async fn main() -> Result<(), ()> {
     // ..

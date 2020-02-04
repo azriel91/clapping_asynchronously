@@ -21,7 +21,7 @@ The quality product can be implemented synchronously.
 
 In code ([source](https://github.com/azriel91/cli_async/blob/sync/src/main.rs#L119)):
 
-```rust
+```rust,ignore
 fn main() {
     // ..
     let interrupt_rx =         t00_setup_interrupt_handler();
